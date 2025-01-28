@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { NewRequirementsSection } from "@/components/NewRequirementsSection";
 
 export default function Requirements() {
   return (
@@ -142,9 +141,6 @@ export default function Requirements() {
               </TableBody>
             </Table>
           </Card>
-
-          <NewRequirementsSection />
-          
         </motion.div>
       </div>
     </div>
