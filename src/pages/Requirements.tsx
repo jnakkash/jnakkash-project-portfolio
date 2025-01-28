@@ -86,6 +86,102 @@ export default function Requirements() {
               className="w-full rounded-lg mb-8"
             />
           </Card>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Card className="p-8 mb-12">
+              <h2 className="text-2xl font-semibold mb-6">Business Requirements Overview</h2>
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Requirement Type</TableHead>
+                    <TableHead>Description</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  <TableRow>
+                    <TableCell className="font-medium">Functional</TableCell>
+                    <TableCell>
+                      <div>"Migrate ELN to web"</div>
+                      <div>"Integrate SoftMax for real-time data"</div>
+                    </TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="font-medium">Non-Functional</TableCell>
+                    <TableCell>
+                      <div>"99% system uptime"</div>
+                      <div>"Latency under 2 seconds"</div>
+                    </TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="font-medium">Regulatory</TableCell>
+                    <TableCell>
+                      <div>"FDA 21 CFR Part 11 compliance"</div>
+                      <div>"Maintain audit trails"</div>
+                    </TableCell>
+                  </TableRow>
+                </TableBody>
+              </Table>
+            </Card>
+
+            <Card className="p-8 mb-12">
+              <h2 className="text-2xl font-semibold mb-6">Detailed Business Requirements</h2>
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>ID</TableHead>
+                    <TableHead>Type</TableHead>
+                    <TableHead>Description</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  <TableRow>
+                    <TableCell>1</TableCell>
+                    <TableCell>Functional</TableCell>
+                    <TableCell>Migrate ELN to web-based platform accessible globally</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>2</TableCell>
+                    <TableCell>Functional</TableCell>
+                    <TableCell>Integrate SoftMax for real-time data analysis</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>3</TableCell>
+                    <TableCell>Functional</TableCell>
+                    <TableCell>Enable automatic data ingestion via Tetra Science</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>4</TableCell>
+                    <TableCell>Non-Functional</TableCell>
+                    <TableCell>Ensure system supports 100 simultaneous users with minimal latency</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>5</TableCell>
+                    <TableCell>Non-Functional</TableCell>
+                    <TableCell>Guarantee 99% system uptime</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>6</TableCell>
+                    <TableCell>Regulatory</TableCell>
+                    <TableCell>Maintain audit trails for all data changes</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>7</TableCell>
+                    <TableCell>Regulatory</TableCell>
+                    <TableCell>Validate workflows to meet FDA compliance standards</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>8</TableCell>
+                    <TableCell>User Experience</TableCell>
+                    <TableCell>Simplify navigation and provide responsive design for users</TableCell>
+                  </TableRow>
+                </TableBody>
+              </Table>
+            </Card>
+          </motion.div>
         </motion.div>
       </div>
     </div>
