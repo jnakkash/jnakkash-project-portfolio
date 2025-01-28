@@ -26,7 +26,7 @@ export function WorkflowSection() {
             <Card className="p-6 h-full">
               <h3 className="text-xl font-semibold mb-4">Previous Workflow</h3>
               <img
-                src="/lovable-uploads/73c84d85-d875-4fb6-bc0a-063cfe963269.png"
+                src="/lovable-uploads/0e480948-6e2d-44e1-a01c-c2b29a8e3c07.png"
                 alt="Previous workflow diagram"
                 className="w-full rounded-lg mb-4"
               />
@@ -44,7 +44,7 @@ export function WorkflowSection() {
             <Card className="p-6 h-full">
               <h3 className="text-xl font-semibold mb-4">New Workflow</h3>
               <img
-                src="/lovable-uploads/fcab90a1-790f-4f91-91f0-4851ac95f433.png"
+                src="/lovable-uploads/2b503265-63b2-4fb9-ae87-7eeb4485ea16.png"
                 alt="New workflow diagram"
                 className="w-full rounded-lg mb-4"
               />
