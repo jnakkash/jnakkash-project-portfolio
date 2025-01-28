@@ -13,7 +13,7 @@ export function NewRequirementsSection() {
         >
           <h2 className="text-3xl font-bold mb-4">Functional User Requirements Gathering</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Your section description goes here.
+            Interacting with actual users in the lab to understand their needs and wants
           </p>
         </motion.div>
 
