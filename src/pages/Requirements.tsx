@@ -59,6 +59,20 @@ export default function Requirements() {
               </motion.div>
             ))}
           </div>
+
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-12">
+            <h3 className="text-xl font-semibold mb-4">Tools Used:</h3>
+            <ul className="space-y-4">
+              <li className="flex items-start">
+                <span className="font-semibold mr-2">JIRA:</span>
+                <span className="text-gray-600">Requirements management, sprint planning, backlog creation.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="font-semibold mr-2">Confluence:</span>
+                <span className="text-gray-600">Single source of truth for documentation, meeting notes, and stakeholder comments.</span>
+              </li>
+            </ul>
+          </div>
           
           <Card className="p-8 mb-12">
             <h2 className="text-2xl font-semibold mb-6">Business Requirements Gathering Process</h2>
