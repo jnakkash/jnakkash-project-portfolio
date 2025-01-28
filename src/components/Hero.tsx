@@ -29,7 +29,7 @@ export function Hero() {
             Streamlining Lab Workflows for Enhanced Efficiency and Compliance
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
-            Welcome to our project showcase, detailing how we successfully migrated Regeneron's IDBS Electronic Lab Notebook (ELN) to a web-based platform and integrated SoftMax for real-time data analysis. Discover how these improvements saved time, reduced errors, and increased overall user adoption.
+            Welcome to my project showcase. Here, I detail how our team successfully migrated IDBS Electronic Lab Notebook (ELN) to a web-based platform and integrated SoftMax for real-time data analysis. Discover how these improvements saved time, reduced errors, and increased overall user adoption.
           </p>
           <Button 
             onClick={() => navigate("/project-details")}
