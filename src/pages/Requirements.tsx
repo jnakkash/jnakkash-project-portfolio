@@ -15,7 +15,7 @@ export default function Requirements() {
           <h1 className="text-4xl font-bold mb-8">Requirements Process</h1>
           
           <Card className="p-8 mb-12">
-            <h2 className="text-2xl font-semibold mb-6">Requirements Gathering Process</h2>
+            <h2 className="text-2xl font-semibold mb-6">Business Requirements Gathering Process</h2>
             <ul className="space-y-4 mb-8">
               <li className="flex items-start">
                 <span className="mr-2">•</span>
