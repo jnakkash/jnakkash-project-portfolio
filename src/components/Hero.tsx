@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Card } from "./ui/card";
+import { Button } from "./ui/button";
+import { useNavigate } from "react-router-dom";
 
 const metrics = [
   { label: "Time Saved", value: "25%", description: "in daily workflows" },
@@ -8,6 +10,8 @@ const metrics = [
 ];
 
 export function Hero() {
+  const navigate = useNavigate();
+
   return (
     <div className="relative overflow-hidden bg-background pt-20 pb-32">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-blue-100 opacity-50" />
@@ -21,9 +25,16 @@ export function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
             Migration & Integration of IDBS ELN with SoftMax
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Welcome to our project showcase, detailing how we successfully migrated Regeneron's IDBS Electronic Lab Notebook (ELN) to a web-based platform and integrated SoftMax for real-time data analysis.
           </p>
+          <Button 
+            onClick={() => navigate("/project-details")}
+            size="lg"
+            className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600"
+          >
+            Learn More
+          </Button>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
