@@ -1,6 +1,14 @@
 import { motion } from "framer-motion";
 import { Card } from "./ui/card";
 import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "./ui/table";
+import {
   BarChart,
   Bar,
   XAxis,
@@ -48,6 +56,7 @@ export function KPISection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          className="grid gap-8 md:grid-cols-2"
         >
           <Card className="p-6">
             <div className="h-[400px]">
@@ -68,6 +77,30 @@ export function KPISection() {
                   <Bar dataKey="after" fill="#3B82F6" name="After Implementation" />
                 </BarChart>
               </ResponsiveContainer>
+            </div>
+          </Card>
+
+          <Card className="p-6">
+            <h3 className="text-xl font-semibold mb-4">KPI Improvements Data</h3>
+            <div className="overflow-x-auto">
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Metrics</TableHead>
+                    <TableHead>Before Implementation</TableHead>
+                    <TableHead>After Implementation</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  {data.map((item) => (
+                    <TableRow key={item.name}>
+                      <TableCell>{item.name}</TableCell>
+                      <TableCell>{item.before}%</TableCell>
+                      <TableCell>{item.after}%</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
             </div>
           </Card>
         </motion.div>
