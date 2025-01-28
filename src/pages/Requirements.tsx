@@ -12,7 +12,7 @@ export default function Requirements() {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-4xl font-bold mb-8">Requirements Process</h1>
+          <h1 className="text-4xl font-bold mb-8">Requirement Gathering Process</h1>
           
           <div className="flex flex-col items-center space-y-8 mb-12">
             {[
