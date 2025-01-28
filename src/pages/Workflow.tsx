@@ -31,7 +31,7 @@ const Workflow = () => {
               Previously, scientists recorded data in a locally-hosted ELN, then switched to SoftMax on a separate server for analysis, leading to manual data transfers and potential errors.
             </p>
             <img
-              src="/lovable-uploads/73c84d85-d875-4fb6-bc0a-063cfe963269.png"
+              src="/lovable-uploads/4a4f5bdc-de3b-4901-9918-428223ea0937.png"
               alt="Previous workflow diagram"
               className="w-full rounded-lg mb-4"
             />
@@ -43,7 +43,7 @@ const Workflow = () => {
               In the new system, scientists access the ELN via a web portal. SoftMax is fully integrated, allowing real-time data analysis and automatic data capture, significantly reducing manual steps.
             </p>
             <img
-              src="/lovable-uploads/fcab90a1-790f-4f91-91f0-4851ac95f433.png"
+              src="/lovable-uploads/2b503265-63b2-4fb9-ae87-7eeb4485ea16.png"
               alt="New workflow diagram"
               className="w-full rounded-lg mb-4"
             />
