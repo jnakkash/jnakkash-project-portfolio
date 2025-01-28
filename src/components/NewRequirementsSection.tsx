@@ -23,7 +23,7 @@ export function NewRequirementsSection() {
           transition={{ duration: 0.5 }}
         >
           <Card className="p-6">
-            <h3 className="text-xl font-semibold mb-4">Content Title</h3>
+            <h3 className="text-xl font-semibold mb-4">User Requirement Gathering Process</h3>
             <p className="text-gray-700">
               Your content goes here.
             </p>
