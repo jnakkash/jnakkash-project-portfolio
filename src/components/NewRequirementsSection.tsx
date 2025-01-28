@@ -26,43 +26,8 @@ export function NewRequirementsSection() {
             <h3 className="text-xl font-semibold mb-4">User Requirement Gathering Process</h3>
             <div className="space-y-6 text-gray-700">
               <div>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="mr-2">1.</span>
-                    <span>Stakeholder Workshops: Identified lab analysts, IT teams, regulatory personnel.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">2.</span>
-                    <span>Interviews & Surveys: Captured pain points, desired features, and compliance considerations.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">3.</span>
-                    <span>Documentation in JIRA: Created user stories, epics, and a traceability matrix.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">4.</span>
-                    <span>Transparency via Confluence: Provided live status updates, collected feedback from end-users.</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-lg font-semibold mb-3">Tools Used:</h4>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <span className="mr-2">•</span>
-                    <span>JIRA: Requirements management, sprint planning, backlog creation.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">•</span>
-                    <span>Confluence: Single source of truth for documentation, meeting notes, and stakeholder comments.</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="mt-8">
                 <h4 className="text-lg font-semibold mb-4">Process and Tools Visualization</h4>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                   {[
                     {
                       step: "Stakeholder Workshops",
@@ -98,6 +63,41 @@ export function NewRequirementsSection() {
                     </motion.div>
                   ))}
                 </div>
+              </div>
+
+              <div>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <span className="mr-2">1.</span>
+                    <span>Stakeholder Workshops: Identified lab analysts, IT teams, regulatory personnel.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">2.</span>
+                    <span>Interviews & Surveys: Captured pain points, desired features, and compliance considerations.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">3.</span>
+                    <span>Documentation in JIRA: Created user stories, epics, and a traceability matrix.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">4.</span>
+                    <span>Transparency via Confluence: Provided live status updates, collected feedback from end-users.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-semibold mb-3">Tools Used:</h4>
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>JIRA: Requirements management, sprint planning, backlog creation.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>Confluence: Single source of truth for documentation, meeting notes, and stakeholder comments.</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </Card>
