@@ -54,17 +54,17 @@ export default function Contact() {
             <div className="space-y-4">
               <h2 className="text-xl font-semibold">Connect with me</h2>
               <div className="flex flex-col space-y-2">
-                <a href="mailto:contact@jacquesnakkash.com" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                <a href="mailto:jnakkash@gmail.com" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
                   <Mail className="w-4 h-4" />
-                  contact@jacquesnakkash.com
+                  jnakkash@gmail.com
                 </a>
-                <a href="https://linkedin.com/in/jacquesnakkash" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                <a href="https://linkedin.com/in/jnakkash" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
                   <Linkedin className="w-4 h-4" />
-                  linkedin.com/in/jacquesnakkash
+                  linkedin.com/in/jnakkash
                 </a>
-                <a href="https://github.com/jacquesnakkash" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                <a href="https://github.com/jnakkash" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-600 hover:text-gray-900">
                   <Github className="w-4 h-4" />
-                  github.com/jacquesnakkash
+                  github.com/jnakkash
                 </a>
               </div>
             </div>
