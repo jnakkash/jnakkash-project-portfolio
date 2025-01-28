@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const metrics = [
   { label: "Time Saved", value: "25%", description: "in daily workflows" },
-  { label: "Error Reduction", value: "40%", description: "through integrated analysis" },
+  { label: "Error Reduction", value: "40%", description: "through integrated data analysis" },
   { label: "User Adoption", value: "95%", description: "within six months" },
 ];
 
@@ -22,11 +22,14 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
             Migration & Integration of IDBS ELN with SoftMax
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Welcome to our project showcase, detailing how we successfully migrated Regeneron's IDBS Electronic Lab Notebook (ELN) to a web-based platform and integrated SoftMax for real-time data analysis.
+          <h2 className="text-2xl md:text-3xl mb-6 text-gray-700">
+            Streamlining Lab Workflows for Enhanced Efficiency and Compliance
+          </h2>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+            Welcome to our project showcase, detailing how we successfully migrated Regeneron's IDBS Electronic Lab Notebook (ELN) to a web-based platform and integrated SoftMax for real-time data analysis. Discover how these improvements saved time, reduced errors, and increased overall user adoption.
           </p>
           <Button 
             onClick={() => navigate("/project-details")}
