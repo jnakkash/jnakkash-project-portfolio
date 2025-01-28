@@ -79,10 +79,10 @@ export default function Requirements() {
           </div>
 
           <Card className="p-8 mb-12">
-            <h2 className="text-2xl font-semibold mb-6">Requirements Gathering Flow</h2>
+            <h2 className="text-2xl font-semibold mb-6">Requirements Distribution</h2>
             <img
-              src="/lovable-uploads/8aa54f93-c6aa-44ac-9a1e-af0280ea5c74.png"
-              alt="Requirements gathering process flow"
+              src="/lovable-uploads/18f79705-4000-4918-bae3-2916bb1aa5da.png"
+              alt="Distribution of Business Requirements by Type"
               className="w-full rounded-lg mb-8"
             />
           </Card>
