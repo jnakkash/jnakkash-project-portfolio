@@ -69,25 +69,6 @@ export function NewRequirementsSection() {
               <Separator className="my-8" />
 
               <div>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="mr-2">1.</span>
-                    <span>Stakeholder Workshops: Identified lab analysts, IT teams, regulatory personnel.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">2.</span>
-                    <span>Interviews & Surveys: Captured pain points, desired features, and compliance considerations.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">3.</span>
-                    <span>Documentation in JIRA: Created user stories, epics, and a traceability matrix.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">4.</span>
-                    <span>Transparency via Confluence: Provided live status updates, collected feedback from end-users.</span>
-                  </li>
-                </ul>
-
                 <div className="mt-8">
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
