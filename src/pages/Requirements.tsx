@@ -71,6 +71,10 @@ export default function Requirements() {
                 <span className="font-semibold mr-2">Confluence:</span>
                 <span className="text-gray-600">Single source of truth for documentation, meeting notes, and stakeholder comments.</span>
               </li>
+              <li className="flex items-start">
+                <span className="font-semibold mr-2">Lucidchart:</span>
+                <span className="text-gray-600">Designing Process Maps and Process Flows.</span>
+              </li>
             </ul>
           </div>
 
