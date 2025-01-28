@@ -74,6 +74,15 @@ export default function Requirements() {
             </ul>
           </div>
 
+          <Card className="p-8 mb-12">
+            <h2 className="text-2xl font-semibold mb-6">Requirements Gathering Flow</h2>
+            <img
+              src="/lovable-uploads/8aa54f93-c6aa-44ac-9a1e-af0280ea5c74.png"
+              alt="Requirements gathering process flow"
+              className="w-full rounded-lg mb-8"
+            />
+          </Card>
+
           <Card className="p-8">
             <h2 className="text-2xl font-semibold mb-6">KPI Improvements</h2>
             <img
