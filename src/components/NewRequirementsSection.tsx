@@ -59,6 +59,46 @@ export function NewRequirementsSection() {
                   </li>
                 </ul>
               </div>
+
+              <div className="mt-8">
+                <h4 className="text-lg font-semibold mb-4">Process and Tools Visualization</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {[
+                    {
+                      step: "Stakeholder Workshops",
+                      tools: "Confluence for meeting notes and documentation",
+                      icon: "👥"
+                    },
+                    {
+                      step: "Interviews & Surveys",
+                      tools: "Confluence for survey results and feedback collection",
+                      icon: "📝"
+                    },
+                    {
+                      step: "Documentation in JIRA",
+                      tools: "JIRA for user stories, epics, and traceability",
+                      icon: "📊"
+                    },
+                    {
+                      step: "Transparency via Confluence",
+                      tools: "Confluence for status updates and feedback",
+                      icon: "🔄"
+                    }
+                  ].map((item, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: index * 0.1 }}
+                      className="bg-white p-4 rounded-lg shadow-sm border border-gray-100"
+                    >
+                      <div className="text-3xl mb-2">{item.icon}</div>
+                      <h5 className="font-semibold mb-2">{item.step}</h5>
+                      <p className="text-sm text-gray-600">{item.tools}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
             </div>
           </Card>
         </motion.div>
