@@ -86,41 +86,6 @@ export default function Requirements() {
               className="w-full rounded-lg mb-8"
             />
           </Card>
-
-          <Card className="p-8">
-            <h2 className="text-2xl font-semibold mb-6">KPI Improvements</h2>
-            <img
-              src="/lovable-uploads/faaeb2e6-3e9c-49b7-9fef-ab1d1bcbdfe9.png"
-              alt="Project KPI Improvements"
-              className="w-full rounded-lg mb-8"
-            />
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Metrics</TableHead>
-                  <TableHead>Before Implementation</TableHead>
-                  <TableHead>After Implementation</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                <TableRow>
-                  <TableCell>Time Saved (%)</TableCell>
-                  <TableCell>0</TableCell>
-                  <TableCell>25</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>Error Reduction (%)</TableCell>
-                  <TableCell>0</TableCell>
-                  <TableCell>40</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>User Adoption (%)</TableCell>
-                  <TableCell>0</TableCell>
-                  <TableCell>95</TableCell>
-                </TableRow>
-              </TableBody>
-            </Table>
-          </Card>
         </motion.div>
       </div>
     </div>
