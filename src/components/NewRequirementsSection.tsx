@@ -11,7 +11,7 @@ export function NewRequirementsSection() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold mb-4">Your Section Title</h2>
+          <h2 className="text-3xl font-bold mb-4">Functional User Requirements Gathering</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Your section description goes here.
           </p>
