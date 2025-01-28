@@ -26,15 +26,6 @@ const Workflow = () => {
           <h1 className="text-4xl font-bold mb-8">Process Mapping</h1>
 
           <Card className="p-8 mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Requirements Gathering Process</h2>
-            <img
-              src="/lovable-uploads/00635224-8c91-4aae-aafa-94c90864f1f7.png"
-              alt="Requirements gathering process diagram"
-              className="w-full rounded-lg mb-6"
-            />
-          </Card>
-
-          <Card className="p-8 mb-8">
             <h2 className="text-2xl font-semibold mb-4">As-Is Workflow</h2>
             <p className="text-gray-600 mb-6">
               Previously, scientists recorded data in a locally-hosted ELN, then switched to SoftMax on a separate server for analysis, leading to manual data transfers and potential errors.
