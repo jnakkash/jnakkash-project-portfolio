@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Card } from "./ui/card";
+import { Separator } from "./ui/separator";
 
 export function NewRequirementsSection() {
   return (
@@ -24,7 +25,7 @@ export function NewRequirementsSection() {
         >
           <Card className="p-6">
             <h3 className="text-xl font-semibold mb-4">User Requirement Gathering Process</h3>
-            <div className="space-y-6 text-gray-700">
+            <div className="space-y-8 text-gray-700">
               <div>
                 <h4 className="text-lg font-semibold mb-4">Process and Tools Visualization</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -65,6 +66,8 @@ export function NewRequirementsSection() {
                 </div>
               </div>
 
+              <Separator className="my-8" />
+
               <div>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -85,6 +88,8 @@ export function NewRequirementsSection() {
                   </li>
                 </ul>
               </div>
+
+              <Separator className="my-8" />
 
               <div>
                 <h4 className="text-lg font-semibold mb-3">Tools Used:</h4>
