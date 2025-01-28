@@ -30,63 +30,50 @@ export function NewRequirementsSection() {
                 <h4 className="text-lg font-semibold mb-4">Process and Tools Visualization</h4>
               </div>
 
-              <Separator className="my-8" />
-
-              <div>
-                <div className="mt-8">
+              <div className="flex flex-col items-center space-y-8">
+                {[
+                  {
+                    step: "Stakeholder Workshops",
+                    description: "Lab analysts, IT teams, regulatory personnel",
+                    icon: "👥"
+                  },
+                  {
+                    step: "Interviews & Surveys",
+                    description: "Pain points & feature requirements",
+                    icon: "📝"
+                  },
+                  {
+                    step: "JIRA Documentation",
+                    description: "User stories & epics",
+                    icon: "📊"
+                  },
+                  {
+                    step: "Confluence Updates",
+                    description: "Status updates & feedback",
+                    icon: "🔄"
+                  }
+                ].map((item, index) => (
                   <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="relative"
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    className="relative w-full max-w-md"
                   >
-                    <div className="flex flex-col items-center space-y-8">
-                      {[
-                        {
-                          step: "Stakeholder Workshops",
-                          description: "Lab analysts, IT teams, regulatory personnel",
-                          icon: "👥"
-                        },
-                        {
-                          step: "Interviews & Surveys",
-                          description: "Pain points & feature requirements",
-                          icon: "📝"
-                        },
-                        {
-                          step: "JIRA Documentation",
-                          description: "User stories & epics",
-                          icon: "📊"
-                        },
-                        {
-                          step: "Confluence Updates",
-                          description: "Status updates & feedback",
-                          icon: "🔄"
-                        }
-                      ].map((item, index) => (
-                        <motion.div
-                          key={index}
-                          initial={{ opacity: 0, x: -20 }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          transition={{ duration: 0.5, delay: index * 0.1 }}
-                          className="relative w-full max-w-md"
-                        >
-                          <div className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm border border-gray-100">
-                            <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-blue-50 rounded-full text-2xl">
-                              {item.icon}
-                            </div>
-                            <div>
-                              <h5 className="font-semibold">{item.step}</h5>
-                              <p className="text-sm text-gray-600">{item.description}</p>
-                            </div>
-                          </div>
-                          {index < 3 && (
-                            <div className="absolute left-6 -bottom-8 h-8 w-0.5 bg-gray-200" />
-                          )}
-                        </motion.div>
-                      ))}
+                    <div className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                      <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-blue-50 rounded-full text-2xl">
+                        {item.icon}
+                      </div>
+                      <div>
+                        <h5 className="font-semibold">{item.step}</h5>
+                        <p className="text-sm text-gray-600">{item.description}</p>
+                      </div>
                     </div>
+                    {index < 3 && (
+                      <div className="absolute left-6 -bottom-8 h-8 w-0.5 bg-gray-200" />
+                    )}
                   </motion.div>
-                </div>
+                ))}
               </div>
 
               <Separator className="my-8" />
