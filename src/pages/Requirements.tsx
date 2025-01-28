@@ -17,36 +17,26 @@ export default function Requirements() {
           
           <Card className="p-8 mb-12">
             <h2 className="text-2xl font-semibold mb-6">Business Requirements Gathering Process</h2>
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>Stakeholder Workshops: Identified lab analysts, IT teams, regulatory personnel.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>Interviews & Surveys: Captured pain points, desired features, and compliance considerations.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>Documentation in JIRA: Created user stories, epics, and a traceability matrix.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>Transparency via Confluence: Provided live status updates, collected feedback from end-users.</span>
-              </li>
+            <img
+              src="/lovable-uploads/8e36ecc6-f44d-4177-8c7f-eda6f1e3cc9c.png"
+              alt="Requirements gathering process"
+              className="w-full max-w-3xl mx-auto rounded-lg mb-8"
+            />
+            
+            <h4 className="text-lg font-semibold mb-4">Results of the Requirements Gathering Process</h4>
+            <ul className="space-y-3 text-gray-700">
+              <li>• Captured one hundred percent of critical requirements in JIRA with full traceability.</li>
+              <li>• Delivered a transparent communication pipeline through Confluence, leading to improved stakeholder satisfaction.</li>
+              <li>• Avoided scope creep by documenting and prioritizing all requirements effectively.</li>
+              <li>• Ensured seamless alignment of business and user needs, enabling a smooth project rollout.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-4">Tools Used</h3>
-            <ul className="space-y-2 mb-8">
-              <li className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>JIRA: Requirements management, sprint planning, backlog creation.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>Confluence: Single source of truth for documentation, meeting notes, and stakeholder comments.</span>
-              </li>
-            </ul>
+            <h3 className="text-xl font-semibold mb-4 mt-8">Distribution of Requirements</h3>
+            <img
+              src="/lovable-uploads/ca804ca9-4c64-4a2b-81ea-0a1f68a2de4d.png"
+              alt="Requirements distribution"
+              className="w-full max-w-3xl mx-auto rounded-lg mb-8"
+            />
 
             <h3 className="text-xl font-semibold mb-4">Business Requirements</h3>
             <Table>
@@ -153,7 +143,6 @@ export default function Requirements() {
             </Table>
           </Card>
 
-          {/* Add your new section here */}
           <NewRequirementsSection />
           
         </motion.div>
