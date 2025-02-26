@@ -1,4 +1,4 @@
-## https://portfolio-streamline-creator.lovable.app/project-details
+## https://portfolio-streamline-creator.lovable.app/
 
 ## Project info
 Migration & Integration of IDBS ELN with SoftMax
