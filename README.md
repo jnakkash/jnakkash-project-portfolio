@@ -1,69 +1,30 @@
-# Welcome to your Lovable project
+# https://portfolio-streamline-creator-8vowwnic4.vercel.app
 
 ## Project info
+Migration & Integration of IDBS ELN with SoftMax
+Streamlining Lab Workflows for Enhanced Efficiency and Compliance
+Welcome to my project showcase. Here, I detail how our team successfully migrated IDBS Electronic Lab Notebook (ELN) to a web-based platform and integrated SoftMax for real-time data analysis. Discover how these improvements saved time, reduced errors, and increased overall user adoption.
 
-**URL**: https://lovable.dev/projects/61baa53f-f2b2-477a-97fe-9b6dfb064ef7
+## Project Details 
+Project Overview
+Objective
+Our goal was to transition the on-premises IDBS ELN to a secure, web-based solution while integrating SoftMax for seamless, in-platform data analysis. This project required meticulous planning to ensure compliance with FDA regulations, improve user accessibility, and streamline lab workflows.
 
-## How can I edit this code?
+Scope & Approach
+We began by defining clear objectives and success metrics, collaborating with stakeholders across IT, QA, and R&D. Using an iterative approach, we managed requirements in JIRA and maintained transparency through Confluence.
 
-There are several ways of editing your application.
+Key Challenges & Solutions
+Regulatory Compliance
+Challenge: Ensuring FDA 21 CFR Part 11 and GxP adherence.
 
-**Use Lovable**
+Solution: Worked closely with QA to validate workflows, audit trails, and electronic signatures.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/61baa53f-f2b2-477a-97fe-9b6dfb064ef7) and start prompting.
+User Resistance
+Challenge: Scientists reluctant to adopt a new system.
 
-Changes made via Lovable will be committed automatically to this repo.
+Solution: Offered live training, user guides, and a phased rollout to ease transition.
 
-**Use your preferred IDE**
+Complex Integration
+Challenge: Linking SoftMax, IDBS ELN, and Tetra Science with minimal downtime.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/61baa53f-f2b2-477a-97fe-9b6dfb064ef7) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Solution: Created clear data flow diagrams, ran iterative testing, and established open lines of communication with each vendor.
